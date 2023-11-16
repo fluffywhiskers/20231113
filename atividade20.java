@@ -7,7 +7,7 @@ public class atividade20 {
         Scanner sc = new Scanner(System.in);
         System.out.println("Digite o ano de seu nascimento: ");
         int anoNascimento = sc.nextInt();
-        int idade = anoNascimento - 2023;
+        int idade = 2023 - anoNascimento;
 
         sc.close();
 
